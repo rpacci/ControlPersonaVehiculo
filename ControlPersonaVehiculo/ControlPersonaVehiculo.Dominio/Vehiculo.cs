@@ -9,7 +9,13 @@ namespace ControlPersonaVehiculo.Dominio
 {
     public class Vehiculo
     {
-        [Key]
-        public int IDVehiculo { get; set; }
+        public int ID { get; set; }
+        public string NumeroPlaca { get; set; }
+        public string Modelo { get; set; }
+        public string Marca { get; set; }        
+        public ZonaTrabajo ZonaTrabajo { get; set; }
+        public int? ZonaTrabajoID { get; set; }
+
+
     }
 }

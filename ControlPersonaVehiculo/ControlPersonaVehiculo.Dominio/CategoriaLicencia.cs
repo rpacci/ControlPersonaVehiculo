@@ -9,7 +9,9 @@ namespace ControlPersonaVehiculo.Dominio
 {
     public class CategoriaLicencia
     {
-        [Key]
-        public int IDCategoriaLicencia { get; set; }
+        public int ID { get; set; }
+        public ClaseLicencia ClaseLicencia { get; set; }
+        public int? ClaseLicenciaID { get; set; } 
+        public string DescripcionCategoriaLicencia { get; set; }
     }
 }

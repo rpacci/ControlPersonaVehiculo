@@ -5,11 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ControlPersonaVehiculo.Services
+namespace ControlPersonaVehiculo.Dominio
 {
     public class ZonaTrabajo
     {
-        [Key]
-        public int IDZonaTrabajo { get; set; }
+        public int ID { get; set; }
+        public string Descripcion { get; set; }
     }
 }

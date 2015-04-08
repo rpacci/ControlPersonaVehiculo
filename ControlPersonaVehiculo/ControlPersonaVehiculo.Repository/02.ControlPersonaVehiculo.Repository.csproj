@@ -48,10 +48,17 @@
   <ItemGroup>
     <Compile Include="ControlPersonaVehiculoContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ZonaVehiculoRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ControlPersonaVehiculo.Dominio\01.ControlPersonaVehiculo.Dominio.csproj">
+      <Project>{b2ff7750-c9fc-43a9-8763-b12242068768}</Project>
+      <Name>01.ControlPersonaVehiculo.Dominio</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
