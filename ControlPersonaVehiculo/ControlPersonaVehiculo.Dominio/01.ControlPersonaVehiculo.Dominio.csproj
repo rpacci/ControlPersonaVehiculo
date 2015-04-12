@@ -48,6 +48,12 @@
     <Compile Include="Vehiculo.cs" />
     <Compile Include="ZonaTrabajo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ControlPersonaVehiculo.Validation\04.ControlPersonaVehiculo.Validation.csproj">
+      <Project>{abcdb1e2-3966-480b-b4e0-dd4fdb437f4e}</Project>
+      <Name>04.ControlPersonaVehiculo.Validation</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

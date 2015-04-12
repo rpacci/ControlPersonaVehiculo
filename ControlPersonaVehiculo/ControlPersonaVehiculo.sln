@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.ControlPersonaVehiculo.WebMVC", "ControlPersonaVehiculo\05.ControlPersonaVehiculo.WebMVC.csproj", "{AE994C14-759A-4B5C-82B8-C3CC507187BC}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.ControlPersonaVehiculo.Dominio", "ControlPersonaVehiculo.Dominio\01.ControlPersonaVehiculo.Dominio.csproj", "{B2FF7750-C9FC-43A9-8763-B12242068768}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.ControlPersonaVehiculo.Repository", "ControlPersonaVehiculo.Repository\02.ControlPersonaVehiculo.Repository.csproj", "{C13BDE06-9EE7-439C-A651-D20814B196C2}"
@@ -13,16 +11,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.ControlPersonaVehiculo.S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.ControlPersonaVehiculo.Validation", "ControlPersonaVehiculo.Validation\04.ControlPersonaVehiculo.Validation.csproj", "{ABCDB1E2-3966-480B-B4E0-DD4FDB437F4E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.ControlPersonaVehiculo.MVCWeb", "PracticaCaliifada\5.ControlPersonaVehiculo.MVCWeb.csproj", "{52C687F6-BEC2-4EA2-B5A1-439F84C4A897}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AE994C14-759A-4B5C-82B8-C3CC507187BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AE994C14-759A-4B5C-82B8-C3CC507187BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AE994C14-759A-4B5C-82B8-C3CC507187BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AE994C14-759A-4B5C-82B8-C3CC507187BC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B2FF7750-C9FC-43A9-8763-B12242068768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B2FF7750-C9FC-43A9-8763-B12242068768}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2FF7750-C9FC-43A9-8763-B12242068768}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +35,10 @@ Global
 		{ABCDB1E2-3966-480B-B4E0-DD4FDB437F4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABCDB1E2-3966-480B-B4E0-DD4FDB437F4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABCDB1E2-3966-480B-B4E0-DD4FDB437F4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52C687F6-BEC2-4EA2-B5A1-439F84C4A897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52C687F6-BEC2-4EA2-B5A1-439F84C4A897}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52C687F6-BEC2-4EA2-B5A1-439F84C4A897}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52C687F6-BEC2-4EA2-B5A1-439F84C4A897}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
